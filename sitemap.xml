@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://serpientedegoogle.es/</loc>
+    <loc>https://serpientedegoogle.vercel.app/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://serpientedegoogle.es/como-jugar</loc>
+    <loc>https://serpientedegoogle.vercel.app/como-jugar</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://serpientedegoogle.es/consejos</loc>
+    <loc>https://serpientedegoogle.vercel.app/consejos</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://serpientedegoogle.es/historia</loc>
+    <loc>https://serpientedegoogle.vercel.app/historia</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://serpientedegoogle.es/contacto</loc>
+    <loc>https://serpientedegoogle.vercel.app/contacto</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://serpientedegoogle.es/privacidad</loc>
+    <loc>https://serpientedegoogle.vercel.app/privacidad</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

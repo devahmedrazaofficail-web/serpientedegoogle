@@ -1,7 +1,7 @@
 # SEO Implementation Report — Serpiente de Google
 
 **Primary keyword:** `serpiente de google` · **Target market:** Spain (es-ES) · **Date:** 2026-10-10
-**Production domain (placeholder — replace before launch):** `https://serpientedegoogle.es/`
+**Production domain:** `https://serpientedegoogle.vercel.app/` (set 2026-10-10 per owner instruction)
 
 ## 1. Keyword research (from SERP + competitor analysis)
 
@@ -62,9 +62,8 @@ All pages: `lang="es"`, `robots=index,follow` (except 404: `noindex,follow`), un
 
 ## 8. Outstanding / owner tasks
 
-1. **Replace placeholder domain** `serpientedegoogle.es` with the real domain in all HTML files, `sitemap.xml`, `robots.txt` (and update `<lastmod>`).
-2. **Contact email:** set your real address in `assets/js/main.js` (or connect Formspree for a real backend).
-3. **Search Console:** submit `sitemap.xml` after deploy; request indexing.
-4. **Schema:** re-validate in Google's Rich Results Test after the domain swap (structure already validated as JSON).
-5. **PageSpeed:** run once live (lab) — the build is dependency-free by design, but real numbers need a real URL.
-6. Optional content growth later: a "récords/trucos avanzados" article or English version (`/en/`) with hreflang.
+1. **Contact email:** set your real address in `assets/js/main.js` (or connect Formspree for a real backend).
+2. **Search Console:** submit `sitemap.xml` after deploy; request indexing.
+3. **Schema:** re-validate in Google's Rich Results Test on the live URL (structure already validated as JSON).
+4. **PageSpeed:** run once live (lab) — the build is dependency-free by design, but real numbers need a real URL.
+5. Optional content growth later: a "récords/trucos avanzados" article or English version (`/en/`) with hreflang.

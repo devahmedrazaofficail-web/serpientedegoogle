@@ -28,14 +28,14 @@ A fast, original, static Spanish-language Snake game website — pure HTML, CSS 
 └── SEO-REPORT.md
 ```
 
-## Before you deploy — 2 things to change
+## Before you deploy — 1 thing to change
 
-1. **Domain.** The placeholder domain `serpientedegoogle.es` is used in canonicals, Open Graph tags, `sitemap.xml` and `robots.txt`. Replace it everywhere with your real domain:
-   ```
-   grep -rl "serpientedegoogle.es" --include="*.html" --include="*.xml" --include="*.txt" .
-   ```
-   Then open `sitemap.xml` and update `<lastmod>` dates if you like.
-2. **Contact email.** In `assets/js/main.js`, change `hola@serpientedegoogle.es` to your real email address. (The form opens the visitor's own email app — no backend needed. If you prefer a real form backend later, connect the form to Formspree and replace the mailto logic.)
+**Contact email.** In `assets/js/main.js`, change `hola@serpientedegoogle.es` to your real email address. (The form opens the visitor's own email app — no backend needed. If you prefer a real form backend later, connect the form to Formspree and replace the mailto logic.)
+
+**Domain** is already set to `https://serpientedegoogle.vercel.app/` everywhere (canonicals, Open Graph tags, `sitemap.xml`, `robots.txt`, JSON-LD). If you later connect a custom domain in Vercel, replace it everywhere with:
+```
+grep -rl "serpientedegoogle.vercel.app" --include="*.html" --include="*.xml" --include="*.txt" .
+```
 
 ## Deploy to Vercel (no build command)
 
