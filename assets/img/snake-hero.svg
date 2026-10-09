@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Ilustración de una serpiente verde comiendo manzanas en un prado">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7efdc"/>
+      <stop offset="1" stop-color="#eef3d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <!-- decorative grid -->
+  <g opacity="0.35">
+    <rect x="60" y="40" width="90" height="90" fill="#ddf0c4"/>
+    <rect x="240" y="40" width="90" height="90" fill="#ddf0c4"/>
+    <rect x="420" y="40" width="90" height="90" fill="#ddf0c4"/>
+    <rect x="600" y="40" width="90" height="90" fill="#ddf0c4"/>
+    <rect x="150" y="130" width="90" height="90" fill="#ddf0c4"/>
+    <rect x="330" y="130" width="90" height="90" fill="#ddf0c4"/>
+    <rect x="510" y="130" width="90" height="90" fill="#ddf0c4"/>
+  </g>
+  <!-- apples -->
+  <g>
+    <circle cx="620" cy="300" r="34" fill="#e23a1f"/>
+    <circle cx="610" cy="290" r="9" fill="#ff8a70" opacity="0.8"/>
+    <rect x="618" y="258" width="5" height="14" fill="#5b3a1e"/>
+    <ellipse cx="636" cy="262" rx="12" ry="7" fill="#2e9e5b" transform="rotate(-25 636 262)"/>
+    <circle cx="180" cy="120" r="26" fill="#e23a1f"/>
+    <circle cx="172" cy="112" r="7" fill="#ff8a70" opacity="0.8"/>
+    <rect x="178" y="88" width="4" height="11" fill="#5b3a1e"/>
+    <ellipse cx="192" cy="91" rx="9" ry="5" fill="#2e9e5b" transform="rotate(-25 192 91)"/>
+    <circle cx="700" cy="120" r="22" fill="#e23a1f"/>
+    <circle cx="693" cy="113" r="6" fill="#ff8a70" opacity="0.8"/>
+  </g>
+  <!-- snake body: winding path -->
+  <path d="M120 340 C 200 340, 200 260, 300 260 S 420 340, 500 300 S 620 220, 560 180"
+        fill="none" stroke="#157347" stroke-width="52" stroke-linecap="round"/>
+  <path d="M120 340 C 200 340, 200 260, 300 260 S 420 340, 500 300 S 620 220, 560 180"
+        fill="none" stroke="#1f9d63" stroke-width="40" stroke-linecap="round"/>
+  <!-- head -->
+  <circle cx="560" cy="180" r="34" fill="#1f9d63"/>
+  <circle cx="572" cy="168" r="10" fill="#fff"/>
+  <circle cx="576" cy="170" r="5" fill="#10261e"/>
+  <circle cx="548" cy="162" r="10" fill="#fff"/>
+  <circle cx="552" cy="164" r="5" fill="#10261e"/>
+  <!-- tongue -->
+  <path d="M592 186 l18 8 m0 0 l-6 -7 m6 7 l-1 8" stroke="#c0392b" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- ground shadow -->
+  <ellipse cx="400" cy="410" rx="300" ry="18" fill="#0e4b3e" opacity="0.08"/>
+</svg>
